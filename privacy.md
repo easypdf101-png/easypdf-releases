@@ -71,4 +71,4 @@ If this policy changes, the new version will be posted at this address with a ne
 
 ## Contact
 
-Questions or requests: **[your support email]**
+Questions or requests: **easypdf101@gmail.com** 
