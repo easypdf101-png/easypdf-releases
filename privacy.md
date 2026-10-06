@@ -34,9 +34,14 @@ When you link your phone and PC, or share a folder with a friend:
 
 ## Optional services you choose to use
 
-- **Google Drive (optional):** if you sign in to Google Drive in Easy PDF, the app uses its own hidden app folder
-  in your Drive (the `drive.appdata` permission). It cannot see your other Drive files. You can sign out at any
-  time, which revokes the app's access.
+- **Google Drive (optional):** if you sign in to Google Drive in Easy PDF, the app can use its own hidden app
+  folder in your Drive (the `drive.appdata` permission) and the files it creates itself (`drive.file`) — your
+  library backups, in a folder called "Easy PDF backups". It cannot see or change any of your other Drive files.
+  Backups go only to your own Drive; if you turn on "Lock backups with a password", they're encrypted on your
+  device with your password first, and nobody — including us and Google — can open them without it. You can turn
+  automatic backups off, delete backups in Drive, or sign out at any time, which revokes the app's access.
+- **OneDrive and Google Drive folders on your PC/phone (optional):** opening or saving files there uses your
+  computer's or phone's own file system; Easy PDF doesn't connect to those services itself.
 - **Dictionary (optional):** when you look up a word, that word is sent to the free Dictionary API
   (dictionaryapi.dev) to get its definition. Nothing else is sent.
 - **Microsoft Word (PC, optional):** "Edit in Word" and "Open in Word" open a copy in Word on your own PC.
@@ -71,4 +76,4 @@ If this policy changes, the new version will be posted at this address with a ne
 
 ## Contact
 
-Questions or requests: **easypdf101@gmail.com** 
+Questions or requests: **easypdf101@gmail.com**
