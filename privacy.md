@@ -1,6 +1,6 @@
 # Easy PDF — Privacy Policy
 
-_Last updated: October 2026_
+_Last updated: October 2026 (version 3.4)_
 
 Easy PDF ("the app") is made by Dray, a sole proprietor in Toronto, Ontario, Canada. This policy explains what
 happens to your information when you use Easy PDF on Android or Windows.
@@ -11,8 +11,10 @@ can read them.
 
 ## What stays on your device
 
-- Your PDFs, notes, scans, books, highlights, signatures and settings are stored on your own phone or PC.
-- Text recognition (OCR) and translation run on your device.
+- Your PDFs, notes, scans, highlights, signatures and settings are stored on your own phone or PC. (On the
+  Microsoft Store version for Windows, your library is kept in your Documents folder, in "Easy PDF", so
+  uninstalling the app never deletes your files.)
+- Translating a page runs on your device.
 - The app keeps a small diagnostics log on your device to help fix problems. It never leaves your device unless
   you choose to share it with us (for example, by emailing it), and it is cleaned of file paths, email addresses
   and IP addresses first.
@@ -21,8 +23,9 @@ can read them.
 
 When you link your phone and PC, or share a folder with a friend:
 
-- On the same Wi-Fi, your devices talk to each other directly.
-- Otherwise, files pass through our relay (a Cloudflare Worker with Cloudflare R2 storage). **Everything is
+- On the same Wi-Fi, your devices talk to each other directly. (You can turn this off with "Relay only".)
+- Otherwise, files up to 25 MB each pass through our relay; bigger files wait until your devices are on the same
+  Wi-Fi. The relay is a Cloudflare Worker with Cloudflare R2 storage. **Everything is
   end-to-end encrypted on your device before it is sent** (X25519 + XChaCha20-Poly1305). The relay only ever holds
   encrypted data and a hash of each access token — it does not have the keys and cannot read your files, their
   names or their contents.
@@ -34,17 +37,10 @@ When you link your phone and PC, or share a folder with a friend:
 
 ## Optional services you choose to use
 
-- **Google Drive (optional):** if you sign in to Google Drive in Easy PDF, the app can use its own hidden app
-  folder in your Drive (the `drive.appdata` permission) and the files it creates itself (`drive.file`) — your
-  library backups, in a folder called "Easy PDF backups". It cannot see or change any of your other Drive files.
-  Backups go only to your own Drive; if you turn on "Lock backups with a password", they're encrypted on your
-  device with your password first, and nobody — including us and Google — can open them without it. You can turn
-  automatic backups off, delete backups in Drive, or sign out at any time, which revokes the app's access.
 - **OneDrive and Google Drive folders on your PC/phone (optional):** opening or saving files there uses your
   computer's or phone's own file system; Easy PDF doesn't connect to those services itself.
-- **Dictionary (optional):** when you look up a word, that word is sent to the free Dictionary API
-  (dictionaryapi.dev) to get its definition. Nothing else is sent.
-- **Microsoft Word (PC, optional):** "Edit in Word" and "Open in Word" open a copy in Word on your own PC.
+- **Email and other apps (optional):** when you share a file, your device's own share options send it; Easy PDF
+  doesn't see where it goes.
 
 ## What we don't do
 
@@ -66,8 +62,8 @@ Easy PDF is not directed at children under 13 and does not knowingly collect inf
 
 ## Your choices
 
-You can delete any file in the app, unlink devices, stop sharing, sign out of Google Drive, or uninstall the app,
-which removes its data from that device. To remove an encrypted mailbox from the relay right away, unlink all your
+You can delete any file in the app, unlink devices, stop sharing, or uninstall the app, which removes its settings
+from that device (on Windows, your library folder stays until you delete it). To remove an encrypted mailbox from the relay right away, unlink all your
 devices or contact us.
 
 ## Changes
