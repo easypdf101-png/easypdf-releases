@@ -1,65 +1,50 @@
-# Store listing text (Google Play and Microsoft Store)
+# Easy PDF — Terms of Use
 
-## App name
-Easy PDF — Scan, Notes & Sync
+_Last updated: October 2026 (version 3.5)_
 
-## Short description (Google Play, max 80 characters)
-Scan, read, sign and take notes. Sync your phone and PC privately — no account.
+These terms are an agreement between you and Dray, the sole proprietor in Toronto, Ontario, Canada who makes
+Easy PDF ("we", "us"). By installing or using Easy PDF you agree to them. If you don't agree, please don't use it.
 
-## Full description (both stores, max 4000 characters)
-Easy PDF is the simple, private way to scan, read, mark up and organize your documents — on your Android phone and
-your Windows PC, kept in sync without an account.
+## 1. Using Easy PDF
+- You may use Easy PDF on your own devices for personal, school or work purposes.
+- You're responsible for the documents you create, store, sync and share, and for having the right to use them.
+- Don't use Easy PDF to break the law, to share content you have no right to share, or to harm others.
+- Easy PDF comes in a **free edition** and a **Pro edition**. Some features (for example library backups, searching
+  inside files, Google Drive and more connected devices) are only in Pro. What each edition includes is shown in the
+  app and on its store page, and may change between versions.
+- Don't try to break, overload or misuse the sync relay (for example, storing files for others to download, or
+  sending automated traffic). We may block access that harms the service or other users.
 
-SCAN AND CREATE
-• Scan pages with your camera — edges found and straightened automatically
-• Turn photos, Word, Excel and PowerPoint files into PDFs
-• Text recognition makes scans searchable and copyable (on your device)
+## 2. Your content
+- Your documents are yours. We don't claim any rights to them.
+- Synced and shared files are end-to-end encrypted on your device; we can't read them. That also means **we can't
+  recover them for you** — keep your own copies of important files (Pro: Settings → Storage → Back up your library;
+  any edition can restore a backup).
+- If a device of yours is lost or stolen, use **Lost or stolen…** on another of your devices (version 3.5 and later):
+  it stops new files from reaching it, but files already on that device stay on it.
+- When you share a folder, the people you share with can keep copies of what they received.
 
-READ AND MARK UP
-• Highlight, draw, add text, fill in forms and sign
-• Highlights summary: every highlight in one list
-• Full-screen reading, bookmarks, search and read-aloud
-• Look up words as you read
+## 3. Optional services
+OneDrive, Google Drive and email apps are provided by other companies under their own terms. Using them alongside
+Easy PDF is optional. Crash reports and usage counts (version 3.5 and later) are off unless you turn them on; the
+Privacy Policy explains exactly what they contain.
 
-NOTES THAT WORK LIKE A WORD PROCESSOR
-• Headings, bold, italic, underline, lists, checklists, tables, pictures and page breaks
-• Templates: lecture notes, meeting notes, assignment cover page, weekly planner and more
-• Save notes as PDF or Word (.docx), or edit them in Microsoft Word
+## 4. No warranty
+Easy PDF is provided "as is". We work hard to keep it reliable, but we can't promise it will be error-free or
+always available, or that files will never be lost.
 
-STUDY TOOLS
-• Flashcards: turn your highlights into cards and quiz yourself
-• Cite any PDF in APA or MLA in one tap
+## 5. Limit of liability
+To the extent the law allows, we aren't liable for indirect or consequential losses (such as lost data, profits or
+time), and our total liability is limited to the amount you paid for Easy PDF in the 12 months before the claim.
+Some places don't allow these limits, so they may not apply to you.
 
-PHONE ↔ PC, PRIVATELY
-• Link your phone and PC with a QR code — your library stays in sync
-• Choose which files go to which device
-• Share folders with friends
-• Everything is end-to-end encrypted. No account, no ads, no tracking.
+## 6. Changes and ending
+We may update Easy PDF and these terms; the new terms will be posted at this address with a new date. You can stop
+using Easy PDF at any time by uninstalling it.
 
-ORGANIZE AND PROTECT
-• Folders, tags, favourites and search across all your documents
-• Merge, split, reorder, rotate and compress PDFs
-• Password-protect PDFs; earlier versions kept; library backup in one file
-• Four colour themes, each in light and dark
+## 7. Law
+These terms are governed by the laws of Ontario and the federal laws of Canada that apply there.
 
-Made in Toronto by an independent developer.
-
-## Category
-Google Play: Productivity · Microsoft Store: Productivity
-
-## Contact email (required by both stores)
-easypdf101@gmail.com
-
-## Privacy policy URL
+## 8. Contact
+easypdf101@gmail.com — see also our Privacy Policy:
 https://easypdf101-png.github.io/easypdf-releases/privacy.html
-
-## Screenshots to take (both stores)
-1. Library with folders (Lavender, light)
-2. A PDF with highlights and the toolbar
-3. A note with a heading, checklist and table (Side by side on the PC)
-4. Flashcards study screen
-5. Scanning a page
-6. Phone ↔ PC linking screen
-7. A dark theme (Cobalt or Clay)
-8. The Colour theme picker
-Phone: at least 2 (Play allows up to 8), 16:9 or 9:16. PC: at least 1 (up to 10), 1366×768 or larger.

@@ -1,12 +1,12 @@
 # Easy PDF — Privacy Policy
 
-_Last updated: October 2026 (version 3.4)_
+_Last updated: October 2026 (version 3.5)_
 
 Easy PDF ("the app") is made by Dray, a sole proprietor in Toronto, Ontario, Canada. This policy explains what
 happens to your information when you use Easy PDF on Android or Windows.
 
-**The short version:** your documents stay on your devices. Easy PDF has no accounts, no ads, no analytics and no
-tracking. When you sync or share, your files are encrypted on your device first, so nobody else — including us —
+**The short version:** your documents stay on your devices. Easy PDF has no accounts, no ads and no tracking, and
+it sends nothing about how you use it unless you say yes. When you sync or share, your files are encrypted on your device first, so nobody else — including us —
 can read them.
 
 ## What stays on your device
@@ -41,12 +41,23 @@ When you link your phone and PC, or share a folder with a friend:
   computer's or phone's own file system; Easy PDF doesn't connect to those services itself.
 - **Email and other apps (optional):** when you share a file, your device's own share options send it; Easy PDF
   doesn't see where it goes.
+- **Crash reports and usage counts (version 3.5 and later; optional, off unless you say yes — Windows and Android):** Easy PDF asks once, and you
+  can change it any time in Settings → Help & diagnostics. If you say yes:
+  - a **crash report** is sent when something breaks: the app's version and edition, your Windows or Android version, where in
+    the app it happened and the technical error — with file paths, file names, quoted text, email addresses and long
+    numbers removed before it leaves your device;
+  - **usage counts** are sent once a day: how many times each feature was used that day (for example "merge PDFs: 2").
+    Never your files, file names, document text, or anything you type.
+  They go only to Easy PDF's own server (the same Cloudflare-hosted relay used for syncing), are not linked to an
+  account or to your devices' identities, and are deleted after 30 days. Settings → Help & diagnostics → "What would
+  be sent" shows the usage counts exactly as they would be sent.
 
 ## What we don't do
 
 - We don't sell, rent or share your information.
 - We don't show ads or use advertising IDs.
-- We don't use analytics or crash-reporting services.
+- We don't use third-party analytics or crash-reporting services, and nothing is sent about how you use the app
+  unless you turn it on.
 - We don't require an account, email address or phone number.
 
 ## Permissions
